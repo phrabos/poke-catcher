@@ -1,4 +1,5 @@
 import { rawData } from './data.js';
+import { incrementCaught, incrementSeen } from './localStorageUtils.js';
 
 let numberOfTurns = 0;
 
@@ -34,6 +35,11 @@ export function renderImages(){
 
     div.textContent = '';
     div.append(newImg1, newImg2, newImg3);
+
+    incrementSeen(randomIndex1.id);
+    incrementSeen(randomIndex2.id);
+    incrementSeen(randomIndex3.id);
+
 }
 
 function makeImageEl(item){
@@ -42,9 +48,12 @@ function makeImageEl(item){
     newImg1.src = item.url_image; 
 
     newImg1.addEventListener('click', () => {
-        if (numberOfTurns < 9){
+        incrementCaught(item.id);
+
+        if (numberOfTurns < 20){
             renderImages();
         } else window.location = './results';
+        console.log(item.seen, item.caught);
     });
     return newImg1;
 }

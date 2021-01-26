@@ -2,9 +2,9 @@
 
 export const rawData = [
     {
-       '_id':'5cef3501ef6005a77cd4fd17',
+       'id':'5cef3501ef6005a77cd4fd17',
        'pokemon':'bulbasaur',
-       'id':1,
+       '_id':1,
        'species_id':1,
        'height':7,
        'weight':69,
@@ -35,9 +35,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/bulbasaur'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd19',
+       'id':'5cef3501ef6005a77cd4fd19',
        'pokemon':'ivysaur',
-       'id':2,
+       '_id':2,
        'species_id':2,
        'height':10,
        'weight':130,
@@ -68,9 +68,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/ivysaur'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd1a',
+       'id':'5cef3501ef6005a77cd4fd1a',
        'pokemon':'charmander',
-       'id':5,
+       '_id':5,
        'species_id':4,
        'height':6,
        'weight':85,
@@ -101,9 +101,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/charmander'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd1b',
+       'id':'5cef3501ef6005a77cd4fd1b',
        'pokemon':'charmeleon',
-       'id':6,
+       '_id':6,
        'species_id':5,
        'height':11,
        'weight':190,
@@ -134,9 +134,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/charmeleon'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd1c',
+       'id':'5cef3501ef6005a77cd4fd1c',
        'pokemon':'charizard',
-       'id':7,
+       '_id':7,
        'species_id':6,
        'height':17,
        'weight':905,
@@ -167,9 +167,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/charizard'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd1f',
+       'id':'5cef3501ef6005a77cd4fd1f',
        'pokemon':'squirtle',
-       'id':10,
+       '_id':10,
        'species_id':7,
        'height':5,
        'weight':90,
@@ -200,9 +200,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/squirtle'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd20',
+       'id':'5cef3501ef6005a77cd4fd20',
        'pokemon':'wartortle',
-       'id':11,
+       '_id':11,
        'species_id':8,
        'height':10,
        'weight':225,
@@ -233,9 +233,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/wartortle'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd21',
+       'id':'5cef3501ef6005a77cd4fd21',
        'pokemon':'blastoise',
-       'id':12,
+       '_id':12,
        'species_id':9,
        'height':16,
        'weight':855,
@@ -266,9 +266,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/blastoise'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd23',
+       'id':'5cef3501ef6005a77cd4fd23',
        'pokemon':'caterpie',
-       'id':14,
+       '_id':14,
        'species_id':10,
        'height':3,
        'weight':29,
@@ -299,9 +299,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/caterpie'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd24',
+       'id':'5cef3501ef6005a77cd4fd24',
        'pokemon':'metapod',
-       'id':15,
+       '_id':15,
        'species_id':11,
        'height':7,
        'weight':99,
@@ -332,9 +332,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/metapod'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd25',
+       'id':'5cef3501ef6005a77cd4fd25',
        'pokemon':'beedrill',
-       'id':19,
+       '_id':19,
        'species_id':15,
        'height':10,
        'weight':295,
@@ -365,9 +365,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/beedrill'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd26',
+       'id':'5cef3501ef6005a77cd4fd26',
        'pokemon':'weedle',
-       'id':17,
+       '_id':17,
        'species_id':13,
        'height':3,
        'weight':32,
@@ -398,9 +398,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/weedle'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd27',
+       'id':'5cef3501ef6005a77cd4fd27',
        'pokemon':'kakuna',
-       'id':18,
+       '_id':18,
        'species_id':14,
        'height':6,
        'weight':100,
@@ -431,9 +431,9 @@ export const rawData = [
        'pokedex':'http://www.pokemon.com/us/pokedex/kakuna'
     },
     {
-       '_id':'5cef3501ef6005a77cd4fd29',
+       'id':'5cef3501ef6005a77cd4fd29',
        'pokemon':'pidgey',
-       'id':21,
+       '_id':21,
        'species_id':16,
        'height':3,
        'weight':18,
