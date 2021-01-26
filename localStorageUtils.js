@@ -32,7 +32,6 @@ export function incrementSeen(id) {
 
         poke.seen++;
     }
-    console.log(fromStorage);
     setStorage(fromStorage);
 }
 export function incrementCaught(id) {

@@ -1,5 +1,6 @@
 import { rawData } from './data.js';
 import { incrementCaught, incrementSeen } from './localStorageUtils.js';
+import { renderResults } from './results/results-utils.js';
 
 let numberOfTurns = 0;
 
@@ -50,10 +51,11 @@ function makeImageEl(item){
     newImg1.addEventListener('click', () => {
         incrementCaught(item.id);
 
-        if (numberOfTurns < 20){
+        if (numberOfTurns < 10){
             renderImages();
-        } else window.location = './results';
-        console.log(item.seen, item.caught);
+        } else { 
+            window.location = './results';
+            renderResults();}
     });
     return newImg1;
 }
