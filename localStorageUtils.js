@@ -1,3 +1,4 @@
+import { rawData } from './data.js';
 import { findByID } from './utils.js';
 const POKESTORAGE = 'POKESTORAGE';
 
@@ -19,14 +20,16 @@ export function incrementSeen(id) {
     const fromStorage = getStorage();
 
     const poke = findByID(id, fromStorage);
-
+    console.log(poke);
     if (!poke) {
+        const rawPokemon = findByID(id, rawData);
         const newStat = {
             id: id,
+            name: rawPokemon.pokebase,
             seen: 1,
             caught: 0,
         };
-
+        // console.log(newStat);
         fromStorage.push(newStat);
     } else {
 
