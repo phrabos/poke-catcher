@@ -24,3 +24,21 @@ export function nameDataArray(array){
 
     return nameData;
 }
+export function seenNotCaughtArray(array){
+    const seenNotCaughtData = [];
+    for (const item of array) {
+        if (item.caught === 0 && item.seen > 0){
+            seenNotCaughtData.push(item.name);
+        }
+    }
+    return seenNotCaughtData;
+}
+export function seenNotCaughtCountArray(array){
+    const seenNotCaughtCountArray = [];
+    for (const item of array) {
+        if (item.caught === 0 && item.seen > 0){
+            seenNotCaughtCountArray.push(item.seen);
+        }
+    }
+    return seenNotCaughtCountArray;
+}
